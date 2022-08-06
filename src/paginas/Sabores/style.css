@@ -1,0 +1,105 @@
+/* GLOBAL */
+
+#secao-sabores .area-limite {
+     max-width: 1024px;
+     margin: 0 auto;
+}
+
+/* SEÇÃO BANNER */
+
+#secao-banner-sabores {
+     height: 70vh;
+     background-image: url('/public/assets/banner-sabores.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: unset;
+}
+
+.box-titulo-banner {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.box-titulo-banner h1 {
+     color: #fff;
+     font-size: 3.5rem;
+     text-transform: uppercase;
+     text-shadow: 3px 3px #3e3e3e;
+}
+
+/* SEÇÃO SABORES */
+
+#secao-sabores {
+     margin-top: 3.3rem;
+     padding: 0 2rem;
+}
+
+.box-titulo h2 {
+     font-size: 1.4rem;
+     font-weight: 500;
+     text-align: center;
+     text-transform: uppercase;
+}
+
+.box-cards-sabores {
+     margin: 1rem 0 3.5rem 0;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+}
+
+.card-sabor {
+     width: 250px;
+     margin: 1.2rem 1rem;
+     padding: 2rem;
+     box-shadow: 1px 1px 6px 3px #5b5b5b57;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.card-sabor figure {
+     width: 150px;
+}
+
+.card-sabor figure img {
+     width: 100%;
+}
+
+.descricao-card h3,
+.box-cards-sabores p {
+     font-size: .9rem;
+     text-align: center;
+}
+
+.descricao-card h3 {
+     margin: 1rem 0 .5rem 0;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 880px) {
+     .box-titulo-banner h1 {
+          font-size: 2.5rem;
+     }
+}
+
+@media (max-width: 630px) {
+     #secao-banner-sabores {
+          height: 65vh;
+     }
+     #secao-sabores {
+          padding: 0 1rem;
+     }
+     .box-titulo-banner h1 {
+          font-size: 1.8rem;
+     }
+     .box-titulo h2 {
+          font-size: 1.2rem;
+     }
+}
