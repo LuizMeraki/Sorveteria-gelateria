@@ -5,7 +5,7 @@ import './style.css';
 
 // Imagens
 import sobre_image from '../../assets/sobre-image.jpg'
-import sabores from '../../assets/sabores.jpg';
+import sorveteria from '../../assets sorveteria.jpg';
 
 
 const Sobre = () => (
@@ -32,7 +32,7 @@ const Sobre = () => (
                <section id='secao-fotos-sobre'>
                     <div className='box-fotos-sobre'>
                          <img src={ sobre_image } alt='Clientes sorveteria Gelateria'></img>
-                         <img src={ sabores } alt='Sorveteria Gelateria'></img>
+                         <img src={ sorveteria } alt='Sorveteria Gelateria'></img>
                     </div>
                </section>
           </main>
