@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../../../public/assets/logo.png'
 import './style.css';
 
 
@@ -7,7 +8,7 @@ const Header = () => (
      <header>
           <div className='menu area-limite'>
                <figure>
-                    <img src='assets/logo.png' alt='Logo Gelateria'></img>
+                    <img src={ logo } alt='Logo Gelateria'></img>
                </figure>
                <nav>
                     <Link className='links-topo' to='/'>Home</Link>
