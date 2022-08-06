@@ -4,8 +4,8 @@ import Footer from '../../componentes/Footer/';
 import './style.css';
 
 // Imagens
-import sobre_image from '../../assets/sobre-image.jpg'
-import sorveteria from '../../assets sorveteria.jpg';
+import sobre_image from '../../assets/sobre-image.jpg';
+import sorveteria from '../../assets/sorveteria.jpg';
 
 
 const Sobre = () => (
