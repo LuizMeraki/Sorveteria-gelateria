@@ -3,6 +3,14 @@ import Header from '../../componentes/Header/'
 import Footer from '../../componentes/Footer/'
 import './style.css';
 
+// Imagens
+import sabor_oreo from '../../assets/sabor-oreo.png';
+import sabor_pistache from '../../assets/sabor-pistache.png';
+import sabor_cookies_avela from '../../assets/sabor-cookies-avela.png';
+import sabor_morango from '../../assets/sabor-morango.png';
+import sabor_kiwi from '../../assets/sabor-kiwi.png';
+import sabor_limao from '../../assets/sabor-limao.png';
+
 
 const Sabores = () => (
      <div>
@@ -21,7 +29,7 @@ const Sabores = () => (
                          <div className='box-cards-sabores'>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-oreo.png' alt='Sorvete Sabor Oreo'></img>
+                                        <img src={ sabor_oreo } alt='Sorvete Sabor Oreo'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete de Oreo</h3>
@@ -30,7 +38,7 @@ const Sabores = () => (
                               </div>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-pistache.png' alt='Sorvete sabor Pistache'></img>
+                                        <img src={ sabor_pistache } alt='Sorvete sabor Pistache'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete Pistache</h3>
@@ -39,7 +47,7 @@ const Sabores = () => (
                               </div>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-cookies-avela.png' alt='Sorvete sabor Cookies e Avelã'></img>
+                                        <img src={ sabor_cookies_avela } alt='Sorvete sabor Cookies e Avelã'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete Cookies e Avelã</h3>
@@ -48,7 +56,7 @@ const Sabores = () => (
                               </div>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-kiwi.png' alt='Sorvete sabor Kiwi'></img>
+                                        <img src={ sabor_kiwi } alt='Sorvete sabor Kiwi'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete de Kiwi</h3>
@@ -57,7 +65,7 @@ const Sabores = () => (
                               </div>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-morango.png' alt='Sorvete sabor Morango'></img>
+                                        <img src={ sabor_morango } alt='Sorvete sabor Morango'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete de Morango</h3>
@@ -66,7 +74,7 @@ const Sabores = () => (
                               </div>
                               <div className='card-sabor'>
                                    <figure>
-                                        <img src='assets/sabor-limao.png' alt='Sorvete sabor Limão'></img>
+                                        <img src={ sabor_limao } alt='Sorvete sabor Limão'></img>
                                    </figure>
                                    <div className='descricao-card'>
                                         <h3>Sorvete de Limão Siciliano</h3>

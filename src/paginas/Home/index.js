@@ -3,6 +3,11 @@ import Header from '../../componentes/Header/';
 import Footer from '../../componentes/Footer/';
 import './style.css';
 
+// Imagens
+import banner_sabores from '../../assets/banner-sabores.jpg';
+import eventos_image from '../../assets/eventos-image.jpg';
+import sobre_image from '../../assets/sobre-image.jpg';
+
 
 const Home = () => (
      <div>
@@ -16,7 +21,7 @@ const Home = () => (
                <section id='secao-nossos-sabores'>
                     <div className='box-imagem-e-texto area-limite'>
                          <div className='box-imagem'>
-                              <img src='assets/banner-sabores.jpg' alt='Sorvete Gelateria'></img>
+                              <img src={ banner_sabores } alt='Sorvete Gelateria'/>
                          </div>
                          <div className='box-descricoes'>
                               <div className='box-titulo-descricoes'>
@@ -41,14 +46,14 @@ const Home = () => (
                               </div>
                          </div>
                          <div className='box-imagem'>
-                              <img src='assets/eventos-image.jpg'></img>
+                              <img src={ eventos_image } alt='Eventos Gelateria'/>
                          </div>
                     </div>
                </section>
                <section id='secao-sobre-nos'>
                     <div className='box-imagem-e-texto area-limite'>
                          <div className='box-imagem'>
-                              <img src='assets/sobre-image.jpg'></img>
+                              <img src={ sobre_image } alt='Sobre Gelateria'/>
                          </div>
                          <div className='box-descricoes'>
                               <div className='box-titulo-descricoes'>

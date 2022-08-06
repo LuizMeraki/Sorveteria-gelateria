@@ -1,13 +1,16 @@
 import React from 'react';
 import './style.css';
 
+// Imagens
+import logo from '../../assets/logo.png';
+
 
 const Footer = () => (
      <footer>
           <div className='footer area-limite'>
                <div className='box-informacoes'>
                     <figure>
-                         <img src='assets/logo.png' alt='Logo Gelateria'></img>
+                         <img src={ logo } alt='Logo Gelateria'></img>
                     </figure>
                     <div className='bloco-info'>
                          <h4>Endereço</h4>

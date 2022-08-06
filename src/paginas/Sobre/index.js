@@ -3,6 +3,10 @@ import Header from '../../componentes/Header/';
 import Footer from '../../componentes/Footer/';
 import './style.css';
 
+// Imagens
+import sobre_image from '../../assets/sobre-image.jpg'
+import sabores from '../../assets/sabores.jpg';
+
 
 const Sobre = () => (
      <div>
@@ -27,8 +31,8 @@ const Sobre = () => (
                </section>
                <section id='secao-fotos-sobre'>
                     <div className='box-fotos-sobre'>
-                         <img src='assets/sobre-image.jpg' alt='Clientes sorveteria Gelateria'></img>
-                         <img src='assets/sorveteria.jpg' alt='Sorveteria Gelateria'></img>
+                         <img src={ sobre_image } alt='Clientes sorveteria Gelateria'></img>
+                         <img src={ sabores } alt='Sorveteria Gelateria'></img>
                     </div>
                </section>
           </main>
