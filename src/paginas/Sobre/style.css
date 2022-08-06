@@ -8,7 +8,7 @@
 /* SEÇÃO BANNER */
 
 #secao-banner-sobre {
-     background-image: url('/public/assets/banner-sobre.png');
+     background-image: url('../../assets/banner-sobre.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;

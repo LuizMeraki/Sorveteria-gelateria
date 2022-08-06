@@ -14,7 +14,7 @@ section {
 section:first-of-type {
      height: 80vh;
      background-color: #f9db79;
-     background-image: url('/public/assets/banner-home.png');
+     background-image: url('../../assets/banner-home.png');
      background-size: contain;
      background-repeat: no-repeat;
      background-position: center;
