@@ -2,6 +2,7 @@
 
 <br>
 
+![gelateria](https://user-images.githubusercontent.com/75648386/195440901-a20fe05f-c666-430e-8c4d-3ad5fb539912.gif)
 
 <br>
 
