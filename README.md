@@ -34,6 +34,7 @@ Link: <a href="https://sorveteria-gelateria-luizmeraki.vercel.app/" target="blan
   <li>JavaScript</li>
   <li>React</li>
   <li>React Router</li>
+  <li>JSX</li>
   <li>CSS</li>
 </ul>
 
